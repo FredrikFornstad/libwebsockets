@@ -23,6 +23,7 @@
  */
 
 #include "private-lib-core.h"
+#include <errno.h>
 
 #if !defined(LWS_PLAT_FREERTOS) && !defined(LWS_PLAT_OPTEE)
 static int
